@@ -75,6 +75,7 @@ class Owner
   def list_pets
     @pets.each do |pet|
       pet.name
+    end
   end
 
 end
