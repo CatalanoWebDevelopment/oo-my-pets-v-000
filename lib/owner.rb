@@ -73,6 +73,7 @@ class Owner
       array.each do |current_state|
         current_state.mood = "nervous"
       end
+      @pets = []
     end
   end
 
