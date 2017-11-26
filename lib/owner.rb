@@ -72,8 +72,9 @@ class Owner
     @pets.each do |pet|
       pet.each do |animal|
         animal.each do |current_state|
+          current_state.mood = "nervous"
       end
     end
   end
-  
+
 end
