@@ -4,8 +4,8 @@ class Owner
 
   @@all = []
 
-  def initialize(owner)
-    @owner = owner
+  def initialize(species)
+    @species = species
     @@all << self
     binding.pry
   end
