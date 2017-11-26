@@ -54,4 +54,6 @@ class Owner
     @pets[:dogs]
   end
 
+  def play_with_cats
+
 end
