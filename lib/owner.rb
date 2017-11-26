@@ -46,5 +46,5 @@ class Owner
     name = Dog.new(name)
     @pets[:dogs] = [name]
   end
-  
+
 end
