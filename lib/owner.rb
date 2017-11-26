@@ -48,7 +48,7 @@ class Owner
   end
 
   def walk_dogs
-    @pets[:dogs][1] = "happy"
+    @pets[:dogs][1] = ["happy"]
     binding.pry
   end
 
