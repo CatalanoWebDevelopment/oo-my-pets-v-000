@@ -31,4 +31,7 @@ class Owner
   def pets
     @pets
   end
+
+  def buy_fish
+    @pets[:fish] += 1
 end
