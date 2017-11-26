@@ -14,6 +14,8 @@ class Owner
     @@all
   end
 
+  def self.reset_all
+
   def say_species
     "I am #{@species}."
   end
